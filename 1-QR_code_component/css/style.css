@@ -66,6 +66,7 @@ body {
     align-self: self-end;
     margin-bottom: 1.5rem;
 }
-.attribution a {
+.attribution a:link,
+.attribution a:visited {
     color: hsl(228, 45%, 44%);
 }
