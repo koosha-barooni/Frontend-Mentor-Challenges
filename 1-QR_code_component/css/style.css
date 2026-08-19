@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    /*  10px / 16px = 0.625  ==> 10px = 62.5% */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "outfit";
+    background-color: #d6e2f0;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+/* =============== General Classes ============== */
+
+.center {
+    text-align: center;
+}
+
+/* ============================================ */
+
+.qr-card {
+    max-width: 32rem;
+    height: 50rem;
+    background-color: #ffffff;
+    padding: 1.6rem 1.6rem 4rem 1.6rem;
+    border-radius: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.qr-card--image {
+    height: 28.8rem;
+    width: 28.8rem;
+    border-radius: 1rem;
+}
+.qr-card--heading {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1f3151;
+    line-height: 1.2;
+    letter-spacing: 0;
+    margin-bottom: 1.6rem;
+}
+
+.qr-card--description {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #68778d;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+}
+
+.attribution {
+    font-size: 1.1rem;
+    align-self: self-end;
+    margin-bottom: 1.5rem;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
