@@ -16,7 +16,6 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
-    align-items: center;
 }
 
 /* =============== General Classes ============== */
@@ -28,6 +27,7 @@ body {
 /* ============================================ */
 
 .qr-card {
+    margin-top: auto;
     max-width: 32rem;
     height: 50rem;
     background-color: #ffffff;
