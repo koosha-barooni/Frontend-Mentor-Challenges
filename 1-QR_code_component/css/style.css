@@ -11,7 +11,7 @@ html {
 body {
     font-family: "outfit";
     background-color: #d6e2f0;
-    height: 100vh;
+    height: 100dvh;
 
     display: grid;
     grid-template-columns: 1fr;
@@ -38,13 +38,13 @@ body {
     flex-direction: column;
     gap: 2.4rem;
 }
-.qr-card--text {
-    padding: 0 1.6rem;
-}
 .qr-card--image {
     height: 28.8rem;
     width: 28.8rem;
     border-radius: 1rem;
+}
+.qr-card--text {
+    padding: 0 1.6rem;
 }
 .qr-card--heading {
     font-size: 2.2rem;
