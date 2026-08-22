@@ -9,13 +9,14 @@ html {
 }
 
 body {
-    font-family: "outfit";
+    font-family: "outfit", system-ui, sans-serif;
     background-color: #d6e2f0;
-    height: 100dvh;
+    min-height: 100dvh;
 
     display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
+    grid-template-rows: 1fr auto;
+    place-items: center;
+    padding: 1.6rem;
 }
 
 /* =============== General Classes ============== */
@@ -27,11 +28,9 @@ body {
 /* ============================================ */
 
 .qr-card {
-    margin-top: auto;
     max-width: 32rem;
-    height: 50rem;
     background-color: #ffffff;
-    padding: 1.6rem 1.6rem 4rem 1.6rem;
+    padding: 1.6rem 1.6rem 4rem;
     border-radius: 2rem;
 
     display: flex;
@@ -39,8 +38,9 @@ body {
     gap: 2.4rem;
 }
 .qr-card--image {
-    height: 28.8rem;
-    width: 28.8rem;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
     border-radius: 1rem;
 }
 .qr-card--text {
@@ -65,7 +65,6 @@ body {
 
 .attribution {
     font-size: 1.1rem;
-    align-self: self-end;
     margin-bottom: 1.5rem;
 }
 .attribution a:link,
