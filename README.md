@@ -1,5 +1,8 @@
 # Frontend-Mentor-Challenges
-This repository is all solutions for "frontendmentor.io" challenges
+
+
+**This repository contains my solutions to the "frontendmentor.io" challenges.**
+
 
 ## Table of Solutions
 
@@ -13,3 +16,5 @@ This repository is all solutions for "frontendmentor.io" challenges
 
 - Solution URL: [my Solution](https://www.frontendmentor.io/solutions/qr-code-component-lyd7RuInvC)
 - Live Site URL: [Live Site](https://qr-code-component-koosha.netlify.app/)
+
+---
