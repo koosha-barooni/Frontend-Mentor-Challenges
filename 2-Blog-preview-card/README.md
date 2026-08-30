@@ -42,12 +42,15 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Responsive design techniques and media queries
+- clamp() function for responsive font-size
 
 ### What I learned
 
 Things I learned from this project:
 
-1- a technique that how to center a card on a page:
+1-I understand what **clamp()** is and how I can use it to adjust responsive font size.
+
+2- a technique that how to center a card on a page:
 
 ```
  body {
@@ -57,7 +60,7 @@ display: grid;
 }
 ```
 
-2- how to add a downloaded or custom font to a css file:
+3- how to add a downloaded or custom font to a css file:
 
 ```
 @font-face {
@@ -72,7 +75,7 @@ display: grid;
 }
 ```
 
-3- how to use link, visited, hover and active pseudo classes:
+4- how to use link, visited, hover and active pseudo classes:
 
 ```
 .attribution a:link,
@@ -87,18 +90,18 @@ display: grid;
 }
 ```
 
-4 - how to customize links underline:
+5 - how to customize links underline:
 
 ```
 text-decoration: underline dotted;
 text-underline-offset: 2px
 ```
 
-5- How to use media queries
+6- How to use media queries
 
 ### Continued development
 
-i want my focus on clean coding ability ,use custom css class and leaning more about media queries
+i want my focus on clean coding ability ,use custom css class and learning more about media queries and especially `clamp()` function
 
 ### Useful resources
 
@@ -108,7 +111,7 @@ i want my focus on clean coding ability ,use custom css class and leaning more a
 
 ### AI Collaboration
 
-I have used Gemini along with "AGENTS.md" to check if my attribute syntax for the hover section is correct.
+I used Gemini with "AGENTS.md" to check if my property syntax is correct for the floating part, and it explained the clamp() function further and guided me how to get the value of vm and the values ​​of the fixed and variable parts of the function.
 
 ## Author
 
@@ -116,4 +119,4 @@ I have used Gemini along with "AGENTS.md" to check if my attribute syntax for th
 
 ## Acknowledgments
 
-I would like to thanks [Abdelrhman Abdelaal](https://www.frontendmentor.io/profile/MrBlackvanta)for learned me how to center a single card in a page
+I would like to thanks [Abdelrhman Abdelaal](https://www.frontendmentor.io/profile/MrBlackvanta) for learned me how to center a single card in a page
