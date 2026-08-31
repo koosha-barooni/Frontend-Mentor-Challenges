@@ -147,7 +147,7 @@ body {
 
 /* ============= Mobile M - 375px ============= */
 
-@media (max-width: 425px) {
+@media (max-width: 26.5em) {
     .blog-card {
         max-width: 32.7rem;
     }
@@ -155,7 +155,7 @@ body {
 
 /* ============= Mobile M - 320px ============= */
 
-@media (max-width: 370px) {
+@media (max-width: 23.1em) {
     .blog-card {
         max-width: 28rem;
         padding: 2rem;
