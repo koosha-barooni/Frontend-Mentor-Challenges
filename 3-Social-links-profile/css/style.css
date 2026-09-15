@@ -32,6 +32,7 @@ html {
 }
 
 /*  ===== 0 px to 375px ===== */
+
 body {
     min-height: 100dvh;
     font-family: "Inter", sans-serif;
@@ -43,7 +44,6 @@ body {
     color: #fff;
 
     display: grid;
-    grid-template-rows: 1fr;
     place-items: center;
 }
 .container {
@@ -108,6 +108,7 @@ body {
 }
 
 /*  ===== Mobile M : 375px ===== */
+
 @media (min-width: 23em) {
     .social-card {
         max-width: 32.7rem;
@@ -119,6 +120,7 @@ body {
     }
 }
 /*  ===== Mobile and larger screen : 425px ===== */
+
 @media (min-width: 26.5em) {
     .social-card {
         max-width: 38.4rem;
