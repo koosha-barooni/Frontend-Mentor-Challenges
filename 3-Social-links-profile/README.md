@@ -25,11 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./social-links-profile-preview.png)
+![The original design](./Guides/design/destkop-design.jpg)
+![My solution](./social-links-profile-preview.png)
 
 ### Links
 
-- Solution URL: [My solution]()
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/social-links-profile-dEkfmeT6YC)
 - Live Site URL: [Live site](https://social-links-profile-koosha.netlify.app/)
 
 ## My process
