@@ -25,8 +25,9 @@ Users should be able to:
 
 ### Screenshot
 
-![The original design](./Guides/design/destkop-design.jpg)
-![My solution](./social-links-profile-preview.png)
+![The original design](./Guides/design/destkop-design.jpg)_The original design_
+
+![My solution](./social-links-profile-preview.png)_My solution_
 
 ### Links
 
