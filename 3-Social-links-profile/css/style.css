@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  =============== Fonts ============== */
+@font-face {
+    font-family: "Inter";
+    src: url(../assets/fonts/static/Inter-Regular.ttf) format("truetype");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(../assets/fonts/static/Inter-SemiBold.ttf) format("truetype");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(../assets/fonts/static/Inter-Bold.ttf) format("truetype");
+    font-weight: 700;
+}
+/*  ================================== */
+
+html {
+    font-size: 62.5%;
+}
+
+/* =========== General  classes =========  */
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+/*  ===== 0 px to 375px ===== */
+body {
+    min-height: 100dvh;
+    font-family: "Inter", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0;
+    background-color: #141414;
+    color: #fff;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-card {
+    width: 100%;
+    max-width: 30rem;
+    background-color: #1f1f1f;
+    padding: 1.6rem;
+    gap: 1.6rem;
+
+    align-items: center;
+    border-radius: 12px;
+}
+.social-card--image {
+    height: 8.8rem;
+    width: 8.8rem;
+    border-radius: 50%;
+}
+.social-card--identity {
+    align-items: center;
+    gap: 0.4rem;
+}
+.social-card--name {
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+.social-card--location {
+    font-weight: 700;
+    color: #c4f82a;
+}
+
+.social-card--links {
+    width: 100%;
+    gap: 1.2rem;
+}
+.social-card--link:link,
+.social-card--link:visited {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 1.2rem;
+    background-color: #333;
+    color: #fff;
+    transition: all 0.6s ease-out;
+}
+.social-card--link:hover,
+.social-card--link:active {
+    background-color: #c4f82a;
+    color: #333;
+}
+.social-card--link:focus {
+    outline: none;
+    box-shadow: 0 0 10px 1px #c4f82a;
+}
+
+/*  ===== Mobile M : 375px ===== */
+@media (min-width: 23em) {
+    .social-card {
+        max-width: 32.7rem;
+        padding: 2.4rem;
+        gap: 2.4rem;
+    }
+    .social-card--links {
+        gap: 1.6rem;
+    }
+}
+/*  ===== Mobile and larger screen : 425px ===== */
+@media (min-width: 26.5em) {
+    .social-card {
+        max-width: 38.4rem;
+        padding: 4rem;
+    }
+}
