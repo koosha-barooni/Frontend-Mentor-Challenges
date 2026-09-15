@@ -102,7 +102,7 @@ body {
     background-color: #c4f82a;
     color: #333;
 }
-.social-card--link:focus {
+.social-card--link:focus-visible {
     outline: none;
     box-shadow: 0 0 10px 1px #c4f82a;
 }
