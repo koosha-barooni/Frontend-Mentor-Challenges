@@ -6,9 +6,19 @@
 
 ## Table of Solutions
 
+- [Social Links Profile](#Social-Links-Profile)
 - [Blog preview card](#Blog-preview-card)
 - [QR Code Component](#QR-Code-Component)
 
+
+
+### Social Links Profile
+![Social Links Profile Solution preview image](https://github.com/koosha-barooni/Frontend-Mentor-Challenges/blob/main/3-Social-links-profile/social-links-profile-preview.png)
+
+- Solution URL: [my Solution](https://www.frontendmentor.io/solutions/social-links-profile-dEkfmeT6YC)
+- Live Site URL: [Live Site](https://social-links-profile-koosha.netlify.app/)
+
+---
 
 
 ### Blog preview card
