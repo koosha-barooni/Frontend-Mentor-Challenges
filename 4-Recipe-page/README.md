@@ -30,20 +30,16 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ![The Original solution preview-**Desktop**](./Guides/design/desktop-design.jpg)
 
-![The Original solution preview-**Mobile**](./Guides/design/mobile-design.jpg)
-
 <hr>
 
 #### My solution
 
 ![My solution preview-**Desktop**](./desktop-preview.png)
 
-![My solution preview-**Mobile**](./mobile-preview.png)
-
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
+- Live Site URL: [Live site](https://recipe-page-koosha.netlify.app/)
 
 ## My process
 
