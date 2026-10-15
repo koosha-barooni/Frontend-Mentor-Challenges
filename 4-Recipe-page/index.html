@@ -25,8 +25,8 @@
                         class="recipe__image" />
                 </header>
                 <!-- ============= Article ============== -->
-                <article class="recipe">
-                    <section class="recipe__content">
+                <article class="recipe flex-col">
+                    <section class="recipe__content flex-col">
                         <h1 class="recipe__content--heading">
                             Simple Omelette Recipe
                         </h1>
@@ -38,92 +38,124 @@
                         </p>
                     </section>
                     <!-- ============= Preparation Section ============== -->
-                    <section class="recipe__prep">
-                        <h3 class="recipe__prep--title">Preparation time</h3>
-                        <ul class="recipe__prep--list">
-                            <li class="list--bullet">&#8226;</li>
-                            <li>
-                                <strong>Total: </strong>Approximately 10 minutes
+                    <section class="recipe__prep flex-col">
+                        <h2 class="recipe__prep--title">Preparation time</h2>
+                        <ul class="recipe__prep--list flex-col">
+                            <li class="recipe__prep--item">
+                                <span class="list--bullet">&#8226;</span>
+                                <p>
+                                    <strong>Total: </strong>Approximately 10
+                                    minutes
+                                </p>
                             </li>
-                            <li class="list--bullet">&#8226;</li>
-                            <li><strong>Preparation: </strong>5 minutes</li>
-                            <li class="list--bullet">&#8226;</li>
-                            <li><strong>Cooking: </strong>5 minutes</li>
+                            <li class="recipe__prep--item">
+                                <span class="list--bullet">&#8226;</span>
+                                <p><strong>Preparation: </strong>5 minutes</p>
+                            </li>
+                            <li class="recipe__prep--item">
+                                <span class="list--bullet">&#8226;</span>
+                                <p><strong>Cooking: </strong>5 minutes</p>
+                            </li>
                         </ul>
                     </section>
                     <!-- ============= Ingredient Section ============== -->
-                    <section class="recipe__ingredients">
+                    <section class="recipe__ingredients flex-col">
                         <h2 class="recipe__ingredients--title">Ingredients</h2>
-                        <ul class="recipe__ingredients--list">
-                            <li class="list--bullet">&#8226;</li>
-                            <li>2-3 large eggs</li>
-                            <li class="list--bullet">&#8226;</li>
-                            <li>Salt, to taste</li>
-                            <li class="list--bullet">&#8226;</li>
-                            <li>Pepper, to taste</li>
-                            <li class="list--bullet">&#8226;</li>
-                            <li>1 tablespoon of butter or oil</li>
-                            <li class="list--bullet">&#8226;</li>
-                            <li>
-                                Optional fillings: cheese, diced vegetables,
-                                cooked meats, herbs
+                        <ul class="recipe__ingredients--list flex-col">
+                            <li class="recipe__ingredients--item">
+                                <span class="list--bullet">&#8226;</span>
+                                <p>2-3 large eggs</p>
+                            </li>
+                            <li class="recipe__ingredients--item">
+                                <span class="list--bullet">&#8226;</span>
+                                <p>Salt, to taste</p>
+                            </li>
+
+                            <li class="recipe__ingredients--item">
+                                <span class="list--bullet">&#8226;</span>
+                                <p>Pepper, to taste</p>
+                            </li>
+
+                            <li class="recipe__ingredients--item">
+                                <span class="list--bullet">&#8226;</span>
+                                <p>1 tablespoon of butter or oil</p>
+                            </li>
+
+                            <li class="recipe__ingredients--item">
+                                <span class="list--bullet">&#8226;</span>
+                                <p>
+                                    Optional fillings: cheese, diced vegetables,
+                                    cooked meats, herbs
+                                </p>
                             </li>
                         </ul>
                     </section>
                     <hr />
                     <!-- ============= Instruction Section ============== -->
-                    <section class="recipe__instructions">
+                    <section class="recipe__instructions flex-col">
                         <h2 class="recipe__instructions--title">
                             Instructions
                         </h2>
-                        <ol class="recipe__instructions--list">
-                            <li class="list--number">1.</li>
-                            <li>
-                                <strong>Beat the eggs:</strong>In a bowl, beat
-                                the eggs with a pinch of salt and pepper until
-                                they are well mixed. You can add a tablespoon of
-                                water or milk for a fluffier texture.
+                        <ol class="recipe__instructions--list flex-col">
+                            <li class="recipe__instructions--item">
+                                <span class="list--number">1.</span>
+                                <p>
+                                    <strong>Beat the eggs:</strong> In a bowl,
+                                    beat the eggs with a pinch of salt and
+                                    pepper until they are well mixed. You can
+                                    add a tablespoon of water or milk for a
+                                    fluffier texture.
+                                </p>
                             </li>
-                            <li class="list--number">2.</li>
-                            <li>
-                                <strong>Heat the pan:</strong>
-                                Place a non-stick frying pan over medium heat
-                                and add butter or oil.
+                            <li class="recipe__instructions--item">
+                                <span class="list--number">2.</span>
+                                <p>
+                                    <strong>Heat the pan:</strong> Place a
+                                    non-stick frying pan over medium heat and
+                                    add butter or oil.
+                                </p>
                             </li>
-                            <li class="list--number">3.</li>
-                            <li>
-                                <strong>Cook the omelette:</strong>
-                                Once the butter is melted and bubbling, pour in
-                                the eggs. Tilt the pan to ensure the eggs evenly
-                                coat the surface.
+                            <li class="recipe__instructions--item">
+                                <span class="list--number">3.</span>
+                                <p>
+                                    <strong>Cook the omelette:</strong> Once the
+                                    butter is melted and bubbling, pour in the
+                                    eggs. Tilt the pan to ensure the eggs evenly
+                                    coat the surface.
+                                </p>
                             </li>
-                            <li class="list--number">4.</li>
-                            <li>
-                                <strong>Add fillings (optional):</strong>
-                                When the eggs begin to set at the edges but are
-                                still slightly runny in the middle, sprinkle
-                                your chosen fillings over one half of the
-                                omelette.
+                            <li class="recipe__instructions--item">
+                                <span class="list--number">4.</span>
+                                <p>
+                                    <strong>Add fillings (optional):</strong>
+                                    When the eggs begin to set at the edges but
+                                    are still slightly runny in the middle,
+                                    sprinkle your chosen fillings over one half
+                                    of the omelette.
+                                </p>
                             </li>
-                            <li class="list--number">5.</li>
-                            <li>
-                                <strong>Fold and serve:</strong>
-                                As the omelette continues to cook, carefully
-                                lift one edge and fold it over the fillings. Let
-                                it cook for another minute, then slide it onto a
-                                plate.
+                            <li class="recipe__instructions--item">
+                                <span class="list--number">5.</span>
+                                <p>
+                                    <strong>Fold and serve:</strong> As the
+                                    omelette continues to cook, carefully lift
+                                    one edge and fold it over the fillings. Let
+                                    it cook for another minute, then slide it
+                                    onto a plate.
+                                </p>
                             </li>
-                            <li class="list--number">6.</li>
-                            <li>
-                                <strong>Enjoy:</strong>
-                                Serve hot, with additional salt and pepper if
-                                needed.
+                            <li class="recipe__instructions--item">
+                                <span class="list--number">6.</span>
+                                <p>
+                                    <strong>Enjoy:</strong> Serve hot, with
+                                    additional salt and pepper if needed.
+                                </p>
                             </li>
                         </ol>
                     </section>
                     <hr />
                     <!-- ============= Nutrition Section ============== -->
-                    <section class="recipe__nutrition">
+                    <section class="recipe__nutrition flex-col">
                         <h2 class="recipe__nutrition--title">Nutrition</h2>
                         <p class="recipe__nutrition--description">
                             The table below shows nutritional values per serving

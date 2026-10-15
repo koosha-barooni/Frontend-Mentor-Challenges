@@ -33,6 +33,12 @@ html {
     font-size: 62.5%;
 }
 
+/*  =============== General classes ============== */
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
 /*  ############# 0 px to 375px #############  */
 
 body {
@@ -52,20 +58,15 @@ body {
 }
 .recipe {
     padding: 4rem 3.2rem;
-    display: flex;
-    flex-direction: column;
     gap: 3.2rem;
 }
 
 /* =========== recipe__content ============ */
 .recipe__content {
-    display: flex;
-    flex-direction: column;
     gap: 2.4rem;
 }
 .recipe__content--heading {
     font-family: "young-serif", serif;
-    font-weight: 700;
     font-size: clamp(3rem, 2.3rem + 2.4vw, 4rem);
     line-height: 1;
     color: #312e2c;
@@ -75,16 +76,12 @@ body {
     background-color: #fff7fb;
     border-radius: 16px;
     padding: 2.4rem;
-    display: flex;
-    flex-direction: column;
     gap: 1.6rem;
 }
 
 .recipe__ingredients,
 .recipe__instructions,
 .recipe__nutrition {
-    display: flex;
-    flex-direction: column;
     gap: 2.4rem;
 }
 
@@ -110,16 +107,33 @@ body {
 .recipe__prep--list,
 .recipe__ingredients--list,
 .recipe__instructions--list {
-    display: grid;
-    grid-template-columns: 2rem auto;
-    align-items: center;
     list-style: none;
-    column-gap: 1.6rem;
-    row-gap: 0.8rem;
+    gap: 0.8rem;
+    margin-left: 0.8rem;
 }
+.recipe__instructions--list {
+    margin-left: 0;
+}
+span {
+    display: block;
+}
+.recipe__prep--item,
+.recipe__ingredients--item,
+.recipe__instructions--item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 2.4rem;
+}
+.recipe__instructions--item {
+    align-items: start;
+    margin-left: 0;
+}
+
 .list--bullet {
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     color: #7a284e;
     font-size: 2.2rem;
