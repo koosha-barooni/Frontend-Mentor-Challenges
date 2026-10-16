@@ -68,6 +68,7 @@ body {
 .recipe__content--heading {
     font-family: "young-serif", serif;
     font-size: clamp(3rem, 2.3rem + 2.4vw, 4rem);
+    font-weight: 400;
     line-height: 1;
     color: #312e2c;
 }
