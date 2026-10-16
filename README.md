@@ -11,6 +11,14 @@
 - [QR Code Component](#QR-Code-Component)
 
 
+### Recipe page
+![Recipe page Solution preview image](https://github.com/koosha-barooni/Frontend-Mentor-Challenges/blob/main/4-Recipe-page/desktop-preview.png)
+
+- Solution URL: [my Solution](https://www.frontendmentor.io/solutions/recipe-page-5Eya7RT576)
+- Live Site URL: [Live Site](https://recipe-page-koosha.netlify.app/)
+
+---
+
 
 ### Social Links Profile
 ![Social Links Profile Solution preview image](https://github.com/koosha-barooni/Frontend-Mentor-Challenges/blob/main/3-Social-links-profile/social-links-profile-preview.png)
