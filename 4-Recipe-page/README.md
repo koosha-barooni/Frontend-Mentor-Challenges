@@ -38,7 +38,7 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Links
 
-- Solution URL: [My solution](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
+- Solution URL: [My solution](https://www.frontendmentor.io/solutions/recipe-page-5Eya7RT576)
 - Live Site URL: [Live site](https://recipe-page-koosha.netlify.app/)
 
 ## My process
