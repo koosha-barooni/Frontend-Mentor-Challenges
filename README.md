@@ -6,6 +6,7 @@
 
 ## Table of Solutions
 
+- [Recipe page](#Recipe-page)
 - [Social Links Profile](#Social-Links-Profile)
 - [Blog preview card](#Blog-preview-card)
 - [QR Code Component](#QR-Code-Component)
